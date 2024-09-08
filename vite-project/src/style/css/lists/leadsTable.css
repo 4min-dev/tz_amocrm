@@ -1,0 +1,14 @@
+.leadTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+  
+  .leadTable th, .leadTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+  .leadTable th {
+    background-color: #f4f4f4;
+}

@@ -1,0 +1,18 @@
+.leadCard {
+    position: relative;
+}
+
+.leadCard button {
+    background: none;
+    border:none;
+    margin-left: 1%;
+}
+
+.leadCard button:not(:disabled) {
+    cursor: pointer;
+}
+
+.leadCard[aria-disabled="true"] {
+    opacity: 60%;
+    cursor: no-drop;
+}
